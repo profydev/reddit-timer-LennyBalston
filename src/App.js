@@ -5,6 +5,7 @@ import { ThemeProvider } from 'styled-components';
 import GlobalStyle from './styles/GlobalStyle';
 import theme from './styles/theme';
 
+import Container from './components/Container';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Search from './pages/Search';
@@ -14,11 +15,13 @@ function App() {
     <BrowserRouter>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="search" element={<Search />} />
-        </Routes>
+        <Container>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="search" element={<Search />} />
+          </Routes>
+        </Container>
       </ThemeProvider>
     </BrowserRouter>
   );
