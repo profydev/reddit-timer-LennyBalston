@@ -19,6 +19,13 @@ const theme = {
     sans: 'Montserrat, sans-serif',
     serif: 'Bitter, serif',
   },
+  screens: {
+    sm: '640px',
+    md: '768px',
+    lg: '1024px',
+    xl: '1280px',
+    xxl: '1536px',
+  },
   spacing: {
     sm: '0.5rem', // 8px
     md: '0.75rem', // 12px
