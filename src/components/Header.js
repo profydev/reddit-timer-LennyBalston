@@ -8,7 +8,7 @@ function Header() {
     <header>
       <div>logo placeholder</div>
       <Flex as="nav" justifyContent="flex-end" rowSpacing="xl">
-        <StyledLink to="#">Search</StyledLink>
+        <StyledLink to="/search?q=javascript">Search</StyledLink>
         <StyledLink to="/#how-it-works">How it works</StyledLink>
         <StyledLink to="/#about">About</StyledLink>
       </Flex>
