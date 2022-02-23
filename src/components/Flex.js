@@ -11,11 +11,24 @@ const Flex = styled.div`
   )};
 
   & > *  {
-    margin-right: ${(props) => (props.rowSpacing ? props.theme.spacing[props.rowSpacing] : 'initial')};    
+    margin-right: ${(props) => (props.gap ? props.gap : 'initial')};    
   }
 
   & > :last-child {
     margin-right: initial;
+  }
+
+  &.header-wrapper {
+    max-width: 1280px;
+    @media (min-width: ${(props) => props.theme.screens.sm}) {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    @media (min-width: calc(1280px + 40px)) {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 `;
 
