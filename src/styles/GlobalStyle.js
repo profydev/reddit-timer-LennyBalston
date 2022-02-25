@@ -4,8 +4,6 @@ import { normalize } from 'styled-normalize';
 const GlobalStyle = createGlobalStyle`
   ${normalize}
 
-  @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat:wght@400;500;600;700&display=swap');
-
   body {
     color: ${(props) => props.theme.colors.main};    
     background-color: ${(props) => props.theme.colors.background};
