@@ -16,7 +16,7 @@ function Header() {
       >
         <Link to="/"><img src={logo} alt="logo" width="150px" height="auto" style={{ display: 'block' }} /></Link>
         <Flex as="nav" justifyContent="flex-end" gap="1.625rem">
-          <StyledLink to="/search?q=javascript">Search</StyledLink>
+          <StyledLink to="/search/javascript">Search</StyledLink>
           <StyledLink to="/#how-it-works">How it works</StyledLink>
           <StyledLink to="/#about">About</StyledLink>
         </Flex>
