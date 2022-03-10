@@ -9,7 +9,7 @@ function Header() {
   return (
     <FooterContainer>
       <ExternalLink
-        href="https://www.google.com"
+        href="https://profy.dev/employers"
         fontSize="0.875rem"
         target="_blank"
       >
