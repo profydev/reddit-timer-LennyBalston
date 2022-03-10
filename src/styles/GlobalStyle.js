@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${(props) => props.theme.colors.main};    
     background-color: ${(props) => props.theme.colors.background};
     font-family: ${(props) => props.theme.fontFamily.sans};
+    font-size: ${(props) => props.theme.fontSizes.default};
     font-weight: 400;
     line-height: 1.69;
   }

@@ -10,15 +10,22 @@ function Header() {
       <StyledLink
         as="a"
         href="https://profy.dev/employers"
-        fontSize="0.875rem"
+        fontSize="small"
         target="_blank"
+        style={{ flex: '1' }}
       >
         profy.dev
       </StyledLink>
       <StyledLink to="/">
         <img src={logo} alt="logo" width="36px" height="auto" style={{ display: 'block' }} />
       </StyledLink>
-      <StyledLink to="/terms" fontSize="0.875rem">Terms & Privacy</StyledLink>
+      <StyledLink
+        to="/terms"
+        fontSize="small"
+        style={{ flex: '1', textAlign: 'right' }}
+      >
+        Terms & Privacy
+      </StyledLink>
     </FooterContainer>
   );
 }
