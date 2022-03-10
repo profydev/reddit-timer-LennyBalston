@@ -8,6 +8,7 @@ import theme from './styles/theme';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Search from './pages/Search';
+import Terms from './pages/Terms';
 import Footer from './components/Footer';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="search" element={<Search />} />
+          <Route path="terms" element={<Terms />} />
         </Routes>
         <Footer />
       </ThemeProvider>
