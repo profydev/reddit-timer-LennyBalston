@@ -8,6 +8,7 @@ import theme from './styles/theme';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Search from './pages/Search';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="search" element={<Search />} />
         </Routes>
+        <Footer />
       </ThemeProvider>
     </BrowserRouter>
   );
