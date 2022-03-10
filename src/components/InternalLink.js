@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-const StyledLink = styled(Link)`
+const InternalLink = styled(Link)`
   color: ${(props) => props.theme.colors.greyDark};
   line-height: 1.25;
   font-size: ${(props) => (
@@ -9,4 +9,4 @@ const StyledLink = styled(Link)`
   )}
 `;
 
-export default StyledLink;
+export default InternalLink;

@@ -2,7 +2,7 @@ import React from 'react';
 
 import logo from '../assets/logo-symbol.svg';
 import FooterContainer from './FooterContainer';
-import StyledLink from './StyledLink';
+import InternalLink from './InternalLink';
 import ExternalLink from './ExternalLink';
 
 function Header() {
@@ -15,10 +15,10 @@ function Header() {
       >
         profy.dev
       </ExternalLink>
-      <StyledLink to="/">
+      <InternalLink to="/">
         <img src={logo} alt="logo" width="36px" height="auto" style={{ display: 'block' }} />
-      </StyledLink>
-      <StyledLink to="/terms" fontSize="0.875rem">Terms & Privacy</StyledLink>
+      </InternalLink>
+      <InternalLink to="/terms" fontSize="0.875rem">Terms & Privacy</InternalLink>
     </FooterContainer>
   );
 }
