@@ -5,6 +5,7 @@ import Title from './Title';
 import SubTitle from './SubTitle';
 import Flex from './Flex';
 import Button from './Button';
+import Typography from './Typography';
 
 const subreddit = '/r/javascript';
 
@@ -16,7 +17,10 @@ export default function HeroSection() {
         Great timing, great results! Find the best time to post on your subreddit.
       </SubTitle>
       <Flex justifyContent="center" marginBottom="30px">
-        <Button value={subreddit}>SHOW ME THE BEST TIME</Button>
+        <Button>SHOW ME THE BEST TIME</Button>
+      </Flex>
+      <Flex justifyContent="center" marginBottom="30px">
+        <Typography>{subreddit}</Typography>
       </Flex>
     </Section>
   );
