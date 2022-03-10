@@ -9,6 +9,8 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Home from './pages/Home';
 import Search from './pages/Search';
+import Terms from './pages/Terms';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,8 +22,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="search" element={<Search />} />
+            <Route path="terms" element={<Terms />} />
           </Routes>
         </Main>
+        <Footer />
       </ThemeProvider>
     </BrowserRouter>
   );

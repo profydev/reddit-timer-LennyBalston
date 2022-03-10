@@ -20,6 +20,10 @@ const theme = {
     sans: 'Montserrat, sans-serif',
     serif: 'Bitter, serif',
   },
+  fontSizes: {
+    default: '1rem',
+    small: '0.875rem',
+  },
   screens: {
     sm: '640px',
     md: '768px',
