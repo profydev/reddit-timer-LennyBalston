@@ -7,7 +7,7 @@ import HrefLink from './HrefLink';
 
 function Header() {
   return (
-    <FooterContainer style={{ backgroundColor: 'yellow' }}>
+    <FooterContainer>
       <HrefLink
         href="https://www.google.com"
         fontSize="0.875rem"
