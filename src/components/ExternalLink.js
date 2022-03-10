@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const HrefLink = styled.a`
+const ExternalLink = styled.a`
   color: ${(props) => props.theme.colors.greyDark};
   line-height: 1.25;
   font-size: ${(props) => (
@@ -8,4 +8,4 @@ const HrefLink = styled.a`
   )}
 `;
 
-export default HrefLink;
+export default ExternalLink;
