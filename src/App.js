@@ -6,6 +6,7 @@ import GlobalStyle from './styles/GlobalStyle';
 import theme from './styles/theme';
 
 import Header from './components/Header';
+import Main from './components/Main';
 import Home from './pages/Home';
 import Search from './pages/Search';
 
@@ -15,10 +16,12 @@ function App() {
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="search" element={<Search />} />
-        </Routes>
+        <Main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="search" element={<Search />} />
+          </Routes>
+        </Main>
       </ThemeProvider>
     </BrowserRouter>
   );
