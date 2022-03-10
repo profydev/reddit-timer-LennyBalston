@@ -12,6 +12,7 @@ const theme = {
     main: '#93918f',
     primary: '#fdb755',
     primaryDark: '#feb756',
+    primaryDarker: '#fea62e',
     secondary: '#0087ff',
     background: '#ffffff',
   },

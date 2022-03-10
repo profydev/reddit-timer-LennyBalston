@@ -7,6 +7,9 @@ const Flex = styled.div`
   justify-content: ${(props) => (
     props.justifyContent ? props.justifyContent : 'initial'
   )};
+  margin-bottom: ${(props) => (
+    props.marginBottom ? props.marginBottom : 'initial'
+  )};
 
   & > *  {
     margin-right: ${(props) => (props.gap ? props.gap : 'initial')};    
