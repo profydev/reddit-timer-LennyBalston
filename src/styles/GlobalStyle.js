@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: ${(props) => props.theme.fontFamily.sans};
     font-size: ${(props) => props.theme.fontSizes.default};
     font-weight: 400;
-    line-height: 1.69;
+    line-height: 1.25;
   }
 
   a {
