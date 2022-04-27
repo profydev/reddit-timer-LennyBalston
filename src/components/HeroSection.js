@@ -14,7 +14,7 @@ const subreddit = '/r/javascript';
 
 export default function HeroSection() {
   return (
-    <Section>
+    <Section data-testid="hero-section">
       <Title>No reactions to your reddit posts?</Title>
       <SubTitle>
         Great timing, great results! Find the best time to post on your subreddit.
