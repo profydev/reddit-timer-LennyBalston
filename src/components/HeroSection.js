@@ -7,6 +7,8 @@ import Flex from './Flex';
 import Button from './Button';
 import Typography from './Typography';
 
+import heatmap from '../assets/heatmap.png';
+
 const subreddit = '/r/javascript';
 
 export default function HeroSection() {
@@ -21,6 +23,9 @@ export default function HeroSection() {
       </Flex>
       <Flex justifyContent="center" marginBottom="30px">
         <Typography>{subreddit}</Typography>
+      </Flex>
+      <Flex justifyContent="center" marginBottom="30px">
+        <img src={heatmap} alt="heatmap" />
       </Flex>
     </Section>
   );
